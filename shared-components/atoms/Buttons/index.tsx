@@ -11,11 +11,12 @@ interface Button {
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ variant, backgroundColor, size, label, ...props }) => {
+export 
+const Button = ({ variant, backgroundColor, size, label, ...props }) => {
   return (
     <button
       type="button"
-      className={['storybook-button', `storybook-button--${size}`, `storybook-button--${variant}`].join(' ')}
+      className={['kgstand-button', `kgstand-button--${size}`, `kgstand-button--${variant}`].join(' ')}
       style={backgroundColor && { backgroundColor }}
       {...props}
     >
