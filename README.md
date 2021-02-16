@@ -8,6 +8,6 @@ KGStand DS is developed with designers and developers in mind, following the gui
 
 We utilize Storybook to demo and document our shared components as well as the markup structure for usage with our styles.
 
-`/shared-components` - shared atomic elements/components
+`/shared-components` - shared atomic design elements/components
 `/stories` - storybook
 
