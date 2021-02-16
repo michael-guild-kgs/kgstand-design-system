@@ -2,9 +2,8 @@ import React from 'react';
 
 import './button.css';
 interface Button {
-  primary: Boolean,
-  backgroundColor: string,
-  size: ['small', 'medium', 'large','whatever'],
+  variant: ['primary','secondary'],
+  size: ['small', 'medium', 'large'],
   label: string,
   onClick: () => {},
 };
@@ -12,12 +11,11 @@ interface Button {
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+export const Button = ({ variant, backgroundColor, size, label, ...props }) => {
   return (
     <button
       type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+      className={['storybook-button', `storybook-button--${size}`, `storybook-button--${variant}`].join(' ')}
       style={backgroundColor && { backgroundColor }}
       {...props}
     >
