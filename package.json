@@ -25,7 +25,8 @@
     "package.json": "^2.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "storybook": "^6.1.17"
+    "storybook": "^6.1.17",
+    "chart.js": "^2.9.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.13",
