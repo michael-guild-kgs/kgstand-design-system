@@ -16,7 +16,7 @@ export const Primary = Template.bind({});
 Primary.args = {
   variant: 'primary',
   label: 'Button',
-  
+  size: 'medium'
 };
 
 export const Secondary = Template.bind({});
