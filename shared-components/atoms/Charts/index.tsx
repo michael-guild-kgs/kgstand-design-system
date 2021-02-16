@@ -1,8 +1,8 @@
-import React, { useEffect, useRef } from 'react';
-import Chartjs from 'chart.js';
+import React, { useEffect, useRef } from "react";
+import Chartjs from "chart.js";
 
 interface Chart {
-  type: ['line', 'bar', 'pie'];
+  type: ["line", "bar", "pie"];
   data: {
     title: string;
     labels: [];
