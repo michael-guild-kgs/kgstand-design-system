@@ -1,0 +1,7 @@
+export const Black = 'rgba(0, 0, 0, 1)'
+export const Gray1 = 'rgba(51, 51, 51, 1)'
+export const Gray2 = 'rgba(102, 102, 102, 1)'
+export const Gray3 = 'rgba(153, 153, 153, 1)'
+export const Gray4 = 'rgba(204, 204, 204, 1)'
+export const Gray5 = 'rgba(242, 242, 242, 1)'
+export const White = 'rgba(255, 255, 255, 1)'
