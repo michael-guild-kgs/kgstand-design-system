@@ -1,8 +1,9 @@
 import React from "react";
+import { Brand1, Brand2, Brand5, BrandPrimary } from "../../foundation/colors";
+import { ButtonPrimary, TextLinks } from "./button";
 
-import "./button.css";
 interface Button {
-  variant: ["primary", "secondary"];
+  variant: ["primary", "secondary", "secondary2"];
   size: ["small", "medium", "large"];
   label: string;
   onClick: () => {};
@@ -13,17 +14,19 @@ interface Button {
  */
 export const Button = ({ variant, backgroundColor, size, label, ...props }) => {
   return (
-    <button
-      type="button"
-      className={[
-        "kgstand-button",
-        `kgstand-button--${size}`,
-        `kgstand-button--${variant}`,
-      ].join(" ")}
-      style={backgroundColor && { backgroundColor }}
-      {...props}
-    >
-      {label}
-    </button>
+    <>
+      <ButtonPrimary>{label}</ButtonPrimary>
+
+      <ButtonPrimary
+        Color={BrandPrimary}
+        BgColor={Brand1}
+        HoverColor={Brand5}
+        HoverBg={Brand2}
+      >
+        {label}
+      </ButtonPrimary>
+
+      <TextLinks>{label}</TextLinks>
+    </>
   );
 };
