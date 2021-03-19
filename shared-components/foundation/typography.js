@@ -22,6 +22,7 @@ export const DisplayXLarge = styled.h1`
 `
 export const DisplayLargeStyles = getDisplay('Large')
 export const DisplayLarge = styled.h2`
+  font-weight: bold;
   ${DisplayLargeStyles}
 `
 

@@ -9,9 +9,7 @@ interface Button {
 export const Button = ({label}) => {
   return (
     
-      <ButtonStyled variant="primary">
-        {label}
-      </ButtonStyled> 
+      <ButtonStyled variant="primary"> {label} </ButtonStyled> 
     
   );
 };

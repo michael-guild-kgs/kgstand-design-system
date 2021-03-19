@@ -2,7 +2,7 @@ import React from 'react';
 import { SecondaryButton } from '../shared-components/atoms/Buttons/secondaryButton';
 
 export default {
-  title: 'Example/Button',
+  title: 'Example/Buttons',
   component: SecondaryButton,
   argTypes: {
     backgroundColor: { control: 'color' },

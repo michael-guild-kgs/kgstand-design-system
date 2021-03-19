@@ -2,10 +2,10 @@ import React from 'react';
 import { TextLinkButton } from '../shared-components/atoms/Buttons/textLinkButton';
 
 export default {
-  title: 'Example/Button',
+  title: 'Example/Buttons',
   component: TextLinkButton,
   argTypes: {
-    backgroundColor: { control: 'color' },
+    color: { control: 'color' },
   },
 };
 

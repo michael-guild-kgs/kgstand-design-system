@@ -9,9 +9,7 @@ interface SecondaryButton {
 export const SecondaryButton = ({label}) => {
   return (
     
-       <ButtonStyled variant="secondary">
-         {label}
-       </ButtonStyled>
+       <ButtonStyled variant="secondary"> {label} </ButtonStyled>
     
   );
 };
