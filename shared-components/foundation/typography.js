@@ -77,15 +77,16 @@ export const Button = styled.button`
   ${ButtonStyles}
 `
 
-export const TextLinkStyles = `
+export const ButtonAsLinkStyles = `
   font-family: ${fontFamily};
   font-size: 14px;
   text-decoration:underline;
   font-weight: bold;
 `
-export const TextLink = styled.a`
-  ${TextLinkStyles}
+export const ButtonAsLink = styled.a`
+  ${ButtonAsLinkStyles}
 `
+
 
 export const CaptionStyles = `
   font-family: ${fontFamily};
