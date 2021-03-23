@@ -7,8 +7,8 @@ import { variant } from 'styled-system';
 
 
 export const GeneralButton = `
-  border:1px solid transparent;
-  margin:2px;
+  border: 1px solid transparent;
+  margin: 2px;
   padding: ${XSmall}px ${Small}px;
   letter-spacing: 0.38px;
   border-radius:4px; 

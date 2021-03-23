@@ -56,6 +56,7 @@ export const LabelStyles = `
   font-family: ${fontFamily};
   font-size: 16px;
   font-weight: bold;
+ 
 `
 export const Label = styled.label`
   ${LabelStyles} 

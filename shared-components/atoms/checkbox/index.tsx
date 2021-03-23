@@ -1,19 +1,28 @@
 import React from 'react'
-import { InputCheckbox, LabelCheckbox } from './checkbox'
+import { StyledCheckbox, LabelCheckbox } from './checkbox'
 
-interface Checkbox {
+
+
+interface Checkboxx {
     label: string;
   }
 
 
-export const Checkbox = ({label}) => {
-    return (
 
-            <LabelCheckbox> 
-                <InputCheckbox /> {label} 
-            </LabelCheckbox> 
+export const Checkboxx = ({label}) => {
+    return (
       
+        <LabelCheckbox>
+           <StyledCheckbox /> {label}
+        </LabelCheckbox>
+
     )
 }
+
+
+
+
+
+
 
 
