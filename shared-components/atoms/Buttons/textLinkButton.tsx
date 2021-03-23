@@ -5,11 +5,6 @@ interface TextLinkButton {
   label: string;
 }
 
-
-export const TextLinkButton = ({label}) => {
-  return (
-
-      <TextLinks>{label}</TextLinks>
-    
- );
+export const TextLinkButton = ({ label }) => {
+  return <TextLinks>{label}</TextLinks>;
 };
