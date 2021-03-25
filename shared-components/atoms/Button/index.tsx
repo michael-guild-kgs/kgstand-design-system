@@ -6,7 +6,5 @@ interface Button {
 }
 
 export const Button = ({ label, variant }) => {
-  return (
-    <ButtonStyled variant={variant}>{label}</ButtonStyled>
-  );
+  return <ButtonStyled variant={variant}>{label}</ButtonStyled>;
 };
