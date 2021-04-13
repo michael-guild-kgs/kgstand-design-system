@@ -56,10 +56,10 @@ export const LabelStyles = `
   font-family: ${fontFamily};
   font-size: 16px;
   font-weight: bold;
- 
+
 `
 export const Label = styled.label`
-  ${LabelStyles} 
+  ${LabelStyles}
 `
 
 export const BodyStyles = `
@@ -72,21 +72,21 @@ export const Body = styled.body`
 
 export const ButtonStyles = `
   font-family: ${fontFamily};
-  font-size: 14px; 
-  font-weight: bold; 
+  font-size: 14px;
+  font-weight: bold;
 `
 export const Button = styled.button`
   ${ButtonStyles}
 `
 
-export const ButtonAsLinkStyles = `
+export const TextLinkStyles = `
   font-family: ${fontFamily};
   font-size: 14px;
   text-decoration:underline;
   font-weight: bold;
 `
-export const ButtonAsLink = styled.a`
-  ${ButtonAsLinkStyles}
+export const TextLink = styled.a`
+  ${TextLinkStyles}
 `
 
 
